@@ -25,8 +25,8 @@ jobs:
         run: |
           npm install -g sonarqube-scanner
           sonar-scanner \
-            -Dsonar.projectKey=\
+            -Dsonar.projectKey=Yuveshen08_customer-payment-portal\
             -Dsonar.sources=. \
-            -Dsonar.host.url=https://your-sonarqube-url.com \
+            -Dsonar.host.url= https://sonarcloud.io \
             -Dsonar.login=${SONAR_TOKEN}
-Yuveshen08_customer-payment-portal
+
